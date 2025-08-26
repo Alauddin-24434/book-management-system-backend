@@ -33,8 +33,9 @@ app.use(express.urlencoded({ extended: true }))
 /**
  * 🔄 Routes
  */
-app.get("/v1", (req, res) => {
-  res.json({ status: "OK", message: "Booking Management system is running!" })
+app.get("/", (req, res) => {
+  res.status(200).json({succes: true,
+    message: "Booking Management system is running!" })
 })
 
 
