@@ -3,7 +3,7 @@ import { authRoutes } from "../routes/auth.routes"
 
 const moduleRoutes = [
   {
-    path: "/api/auth",
+    path: "/auth",
     route: authRoutes,
 
   }
